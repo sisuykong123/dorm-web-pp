@@ -11,8 +11,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="sytle.css" />
-    <title>Form.Web | Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sell.Web | Shop</title>
   </head>
   <body>
     <nav>
@@ -27,6 +27,7 @@
       <ul class="nav_links" id="nav-links">
         <li><a href="#home">Home</a></li>      
         <li><a href="#product">Products</a></li>
+        <li><a href="#cart">Cart</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
       </ul>
@@ -87,31 +88,37 @@
           <h4>Living Room Decorate</h4>
           <p>$1.5K</p>
           <img src="assets/product-0.png" alt="product" />
+          <button class="buy_btn">Buy</button>
         </div>
         <div class="product_card">
           <h4>Waredrop</h4>
           <p>$35.00</p>
           <img src="assets/product-00.png" alt="product" />
+          <button class="buy_btn">Buy</button>
         </div>
         <div class="product_card">
           <h4>Rent a night </h4>
           <p>$500.00</p>
           <img src="assets/product-000.jpg" alt="product" />
+          <button class="buy_btn">Buy</button>
         </div>
         <div class="product_card">
           <h4>Rent Private House</h4>
           <p>$450.00</p>
           <img src="assets/product-0000.png" alt="product" />
+          <button class="buy_btn">Buy</button>
         </div>
         <div class="product_card">
           <h4>Stylish Chair</h4>
           <p>$45.00</p>
           <img src="assets/product-5.png" alt="product" />
+          <button class="buy_btn">Buy</button>
         </div>
         <div class="product_card">
           <h4>Vintage Chair</h4>
           <p>$65.00</p>
           <img src="assets/product-6.png" alt="product" />
+          <button class="buy_btn">Buy</button>
         </div>
       </div>
     </section>
@@ -244,7 +251,10 @@
       </div>
     </section>
 
-    <footer class="footer" id="contact">
+    <section class="section_container" id="cart">
+      <h2 class="section_header">Your Cart</h2>
+      <div id="cart_items"></div>
+    </section>
       <div class="section_container footer_container">
         <div class="footer_col">
           <div class="footer_logo">
